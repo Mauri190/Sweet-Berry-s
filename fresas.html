@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresas Deliciosas - Tu negocio de fresas con crema y chocolate</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+            color: #8b0045;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            background-color: #ffebf3;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border: 2px solid #ff69b4;
+            overflow: hidden;
+        }
+        
+        .rose {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            opacity: 0.6;
+            z-index: -1;
+        }
+        
+        .rose-1 {
+            top: 20px;
+            left: 20px;
+            transform: rotate(-15deg);
+        }
+        
+        .rose-2 {
+            top: 20px;
+            right: 20px;
+            transform: rotate(15deg);
+        }
+        
+        .rose-3 {
+            bottom: 20px;
+            left: 20px;
+            transform: rotate(15deg);
+        }
+        
+        .rose-4 {
+            bottom: 20px;
+            right: 20px;
+            transform: rotate(-15deg);
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px dashed #ff69b4;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #d6006e;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(214, 0, 110, 0.2);
+        }
+        
+        .logo {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-style: italic;
+            color: #c70067;
+            margin-bottom: 20px;
+        }
+        
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        
+        .product {
+            width: 45%;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
+            border: 1px solid #ffb6c1;
+            transition: transform 0.3s;
+        }
+        
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product h2 {
+            color: #d6006e;
+            border-bottom: 1px solid #ffb6c1;
+            padding-bottom: 10px;
+        }
+        
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 2px dashed #ff69b4;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #c70067;
+        }
+        
+        .contact {
+            background-color: #ffc0cb;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #ff69b4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #d6006e;
+        }
+        
+        @media (max-width: 768px) {
+            .product {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Rosas decorativas -->
+        <div class="rose rose-1">🌹</div>
+        <div class="rose rose-2">🌹</div>
+        <div class="rose rose-3">🌹</div>
+        <div class="rose rose-4">🌹</div>
+        
+        <header>
+            <div class="logo">🍓</div>
+            <h1>Sweet Berry´s</h1>
+            <p class="tagline">Porque lo dulce nunca pasa de moda</p>
+        </header>
+        
+        <section>
+            <h2>Nuestros Productos Estrella</h2>
+            <div class="products">
+                <div class="product">
+                    <h2>Fresas con Crema</h2>
+                    <p>Las fresas más frescas y jugosas, acompañadas de nuestra deliciosa crema batida casera, preparada con ingredientes 100% naturales.</p>
+                    <p>Disponibles en diferentes presentaciones:</p>
+                    <ul>
+                        <li>Individual (5 fresas)</li>
+                        <li>Pareja (10 fresas)</li>
+                        <li>Familiar (20 fresas)</li>
+                    </ul>
+                    <div>🍓+🍦=😋</div>
+                </div>
+                
+                <div class="product">
+                    <h2>Fresas con Chocolate</h2>
+                    <p>Fresas bañadas en fino chocolate, disponible en chocolate negro, chocolate con leche o chocolate blanco, según tu preferencia.</p>
+                    <p>Opciones especiales:</p>
+                    <ul>
+                        <li>Chocolate con almendras</li>
+                        <li>Chocolate con coco rallado</li>
+                        <li>Chocolate con sprinkles de colores</li>
+                    </ul>
+                    <div>🍓+🍫=❤️</div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="contact">
+            <h2>¡Haz tu pedido ahora!</h2>
+            <p>Contacta con nosotros para disfrutar de estas delicias</p>
+<a href="https://www.instagram.com/berrys_52b?igsh=eHNudHB3N292eWhm" class="btn" target="_blank" rel="noopener noreferrer">Realizar Pedido</a>
+        </div>
+        
+        <footer>
+            <p>© 2025 Fresas Deliciosas - Todos los derechos reservados</p>
+            <p>🍓 Fresas hechas con amor 🍓</p>
+        </footer>
+    </div>
+</body>
+</html>
